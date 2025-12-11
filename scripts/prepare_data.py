@@ -12,7 +12,7 @@ LABEL_FILE = os.path.join(DATA_DIR, "email-Eu-core-department-labels.txt.gz")
 OUTPUT_PKL = os.path.join(OUTPUT_DIR, "email_eu_core_spminer.pkl")
 
 print("Loading directed email network...")
-G = nx.DiGraph()
+G = nx.Graph()
 
 with gzip.open(EDGE_FILE, "rt") as f:
     for line in f:
