@@ -1,0 +1,33 @@
+# Data files
+*.pkl
+*.gz
+*.zip
+*.tar
+*.csv
+*.tsv
+*.txt
+
+# Results and plots
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
